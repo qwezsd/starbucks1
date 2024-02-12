@@ -1,0 +1,112 @@
+#section8 {
+    width: 100%;
+    background: url(../../../../public/img/starbucks/section8/store_bg.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    overflow: hidden;
+    .container {
+        width: 100%;
+        max-width: 1280px;
+        height: 400px;
+        margin: 0 auto;
+        .content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 100px;
+            .col1 {
+                width: 100%;
+                height:100%;
+                position: relative;
+                @keyframes aniSection8Col1on {
+                    from {
+                        opacity: 0;
+                    }
+                    to {
+                        opacity: 1;
+                    }
+                }
+                .img-box {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    img {
+                        &.reserve {
+                            width: 366px;
+                            height: 312px;
+                            position: absolute;
+                            top: 0;
+                            left: 10%;
+                        }
+                        &.driveThru {
+                            width: 228px;
+                            height: 228px;
+
+                            position: absolute;
+                            bottom: 0;
+                            left: 50%;
+                        }
+                        &.coffeeBean {
+                            width: 343px;
+                            height: 142px;
+                            position: absolute;
+                            right: -30%;
+                            top: -10%;
+                        }
+                        &.house {
+                            position: absolute;
+                            bottom: 0;
+                            right: -85%;
+                        }
+                    }
+                }
+            }
+            .col2 {
+                width: 100%;
+                margin-left: 30px;
+                position: relative;
+                .text-box {
+                    width: 100%;
+                    img {
+                        &.mainTxt {
+                            margin-bottom: 15px;
+                            position: relative;
+                            @keyframes aniSection4Col2on {
+                                from {
+                                    right: -100%;
+                                    opacity: 0;
+                                }
+                                to {
+                                    right: 0;
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        &.subTxt {
+                            position: relative;
+                        }
+                    }
+                }
+                .btn-box {
+                    margin-top: 30px;
+                    position: relative;
+                    button {
+                        width: 125px;
+                        height: 38px;
+                        border: 2px solid #155c34;
+                        border-radius: 5px;
+                        background: transparent;
+                        font-size: 15px;
+                        transition: all 0.5s ease-in-out;
+                        &:hover {
+                            background: #155c34;
+                            text-decoration: underline;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

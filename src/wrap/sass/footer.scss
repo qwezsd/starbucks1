@@ -1,0 +1,130 @@
+#footer {
+    width: 100% ;
+    .row1 {
+        background: #2c2a29;
+        padding: 35px 0;
+        .container {
+            width: 100%;
+            max-width: 1182px;
+            margin: 0 auto;
+            .content {
+                width: 100%;
+                display: flex;
+                    ul {
+                        width: 100%;
+                        margin-bottom: 30px;
+                        li {
+                            width: 100%;
+                            
+                            a {
+                                color: #fff;
+                                h3 {
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    margin-bottom: 15px;
+                                }
+                                h4 {
+                                    font-size: 12px;
+                                    font-weight: 500;
+                                    margin: 12px 0;
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }   
+                        }
+                    }
+                    img {
+                        height:142px;
+                    }
+                }
+            }
+        }
+    .row2 {
+        width: 100%;
+        background: #282828;
+        padding-top: 20px;
+        height: 100px;
+        .container {
+            width: 100%;
+            max-width: 1182px;
+            margin: 0 auto;
+            .content {
+                display: flex;
+                width: 100%;
+                .img-box {
+                    img {
+                        
+                    }
+                }
+            }
+        }
+    }
+    .row3 {
+        width: 100%;
+        background: #2c2a29;
+        padding: 30px 0 35px 0;
+        .container {
+            width: 100%;
+            max-width: 1182px;
+            margin: 0 auto;
+            .content {
+                width: 100%;
+                text-align: center;
+                ul {
+                    width: 100%;
+                    li {
+                        width: 100%;
+                        a {
+                            color: #ccc;
+                            font-weight: 500;
+                            font-size: 12px;
+                            padding: 0 8px;
+                            border-right: 1px solid #333;
+                            &.important {
+                                color : #00b050
+                            }
+                            &.last {
+                                border-right: 0;
+                            }
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                        .button-box {
+                                button {
+                                    cursor: pointer;
+                                    border: 2px solid #fff;
+                                    width: 114px;
+                                    height: 34px;
+                                    padding: 0 10px;
+                                    margin: 15px 4px 0 3px;
+                                    background-color: transparent;
+                                    color: #fff;
+                                    font-size: 12px;
+                                    border-radius: 3px;
+
+                                    &:hover {
+                                        text-decoration: underline;
+                                        
+                                    }
+                            }
+                        }
+                        p {
+                            padding: 25px 10px 5px 10px;
+                            font-size: 12px;
+                            color: #999;
+                            display: inline-block;
+                        }
+                        h4 {
+                            font-size: 12px;
+                            color: #999;
+                            margin: 20px 0 25px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
