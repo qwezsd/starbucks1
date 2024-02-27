@@ -151,7 +151,7 @@ export default function HeaderComponent () {
                             <div className="row2">
                                 <div className="col1">
                                     <div className="nav-box">
-                                        <a href="!#"><p>Sign In</p></a>
+                                        <Link to="/sub8"><p>Sign In</p></Link>
                                         <i>I</i>
                                         <a href="!#"><p>My Starbucks</p></a>
                                         <i>I</i>

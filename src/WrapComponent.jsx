@@ -12,6 +12,7 @@ import Sub4Component from './wrap/sub/Sub4Component';
 import Sub5Component from './wrap/sub/Sub5Component';
 import Sub6Component from './wrap/sub/Sub6Component';
 import Sub7Component from './wrap/sub/Sub7Component';
+import Sub8SignUpComponent from './wrap/sub/Sub8SignUpComponent';
 
 export default function WrapComponent () {
     return (
@@ -28,6 +29,7 @@ export default function WrapComponent () {
                     <Route path='/sub5' element={<Sub5Component />} />
                     <Route path='/sub6' element={<Sub6Component />} />
                     <Route path='/sub7' element={<Sub7Component />} />
+                    <Route path='/sub8' element={<Sub8SignUpComponent />} />
 
                 </Route>
             </Routes>
