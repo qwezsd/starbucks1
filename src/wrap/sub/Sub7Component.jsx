@@ -24,6 +24,27 @@ export default function Sub1Component() {
         isarrowDown : false,
         })
  
+    React.useState(()=>{
+        axios.
+        all([
+            axios.get('./data/sub7.json'),
+            axios.get('./data/sub7-1.json'),
+            axios.get('./data/sub7-2.json')])
+        .then(
+            axios.spread((res1, res2, res3)=>{
+                setState({
+                    ...state,
+                    프로모션:res1.data.프로모션,
+                    새소식:res2.data.새소식,
+                    매장별:res3.data.매장별
+                })
+            })
+        )
+        .catch((err)=>{
+            console.log(err)
+        })
+    })
+
     React.useEffect(()=>{
         axios({
             url:'./data/sub7.json',
@@ -36,30 +57,30 @@ export default function Sub1Component() {
         }).catch((err)=>{
         })
     })
-    React.useEffect(()=>{
-        axios({
-            url:'./data/sub7-1.json',
-            method:'GET'
-        }).then((res)=>{
-            setState({
-                ...state,
-                새소식:res.data.새소식
-            })
-        }).catch((err)=>{
-        })
-    })
-    React.useEffect(()=>{
-        axios({
-            url:'./data/sub7-2.json',
-            method:'GET'
-        }).then((res)=>{
-            setState({
-                ...state,
-                매장별:res.data.매장별
-            })
-        }).catch((err)=>{
-        })
-    })
+    // React.useEffect(()=>{
+    //     axios({
+    //         url:'./data/sub7-1.json',
+    //         method:'GET'
+    //     }).then((res)=>{
+    //         setState({
+    //             ...state,
+    //             새소식:res.data.새소식
+    //         })
+    //     }).catch((err)=>{
+    //     })
+    // })
+    // React.useEffect(()=>{
+    //     axios({
+    //         url:'./data/sub7-2.json',
+    //         method:'GET'
+    //     }).then((res)=>{
+    //         setState({
+    //             ...state,
+    //             매장별:res.data.매장별
+    //         })
+    //     }).catch((err)=>{
+    //     })
+    // })
  
     // 이전 버튼 슬라이드   
     const onClickPrev=(e)=>{
