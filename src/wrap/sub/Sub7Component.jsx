@@ -45,18 +45,18 @@ export default function Sub1Component() {
         })
     })
 
-    React.useEffect(()=>{
-        axios({
-            url:'./data/sub7.json',
-            method:'GET'
-        }).then((res)=>{
-            setState({
-                ...state,
-                프로모션:res.data.프로모션
-            })
-        }).catch((err)=>{
-        })
-    })
+    // React.useEffect(()=>{
+    //     axios({
+    //         url:'./data/sub7.json',
+    //         method:'GET'
+    //     }).then((res)=>{
+    //         setState({
+    //             ...state,
+    //             프로모션:res.data.프로모션
+    //         })
+    //     }).catch((err)=>{
+    //     })
+    // })
     // React.useEffect(()=>{
     //     axios({
     //         url:'./data/sub7-1.json',
