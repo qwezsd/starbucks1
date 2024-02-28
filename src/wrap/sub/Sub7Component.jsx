@@ -1,8 +1,6 @@
 import React from 'react';
 import './sass/sub7.scss';
 import Sub7ChildComponent from './Sub7ChildComponent.jsx';
-import Sub7_1ChildComponent from './Sub7_1ChildComponent ';
-import Sub7_2ChildComponent from './Sub7_2ChildComponent ';
 import axios from 'axios';
 
 export default function Sub1Component() {
@@ -45,43 +43,7 @@ export default function Sub1Component() {
         })
     })
 
-    // React.useEffect(()=>{
-    //     axios({
-    //         url:'./data/sub7.json',
-    //         method:'GET'
-    //     }).then((res)=>{
-    //         setState({
-    //             ...state,
-    //             프로모션:res.data.프로모션
-    //         })
-    //     }).catch((err)=>{
-    //     })
-    // })
-    // React.useEffect(()=>{
-    //     axios({
-    //         url:'./data/sub7-1.json',
-    //         method:'GET'
-    //     }).then((res)=>{
-    //         setState({
-    //             ...state,
-    //             새소식:res.data.새소식
-    //         })
-    //     }).catch((err)=>{
-    //     })
-    // })
-    // React.useEffect(()=>{
-    //     axios({
-    //         url:'./data/sub7-2.json',
-    //         method:'GET'
-    //     }).then((res)=>{
-    //         setState({
-    //             ...state,
-    //             매장별:res.data.매장별
-    //         })
-    //     }).catch((err)=>{
-    //     })
-    // })
- 
+
     // 이전 버튼 슬라이드   
     const onClickPrev=(e)=>{
         e.preventDefault();
@@ -201,28 +163,7 @@ export default function Sub1Component() {
                             <div className="gap">
                            
                                 <div className={`sub-content1-2${state.ispoint ? ' on' : ' off'}`}>
-
-                                     <div>
-                                        <div className="box">
-                                            <h2>프로모션 & 이벤트</h2>
-
-                                            <Sub7ChildComponent 프로모션={state.프로모션}/>
-                                        </div>
-
-                                        <div className="whole2">
-                                            <div className="box">
-                                            <h2>새소식</h2>
-
-                                            <Sub7_1ChildComponent 새소식={state.새소식}/>
-                                            
-                                        </div>
-                                        </div>
-
-                                            <div className="box">
-                                            <h2>매장별 이벤트</h2>
-                                            <Sub7_2ChildComponent 매장별={state.매장별}/>
-                                            </div>
-                                    </div>
+                                    <Sub7ChildComponent 프로모션={state.프로모션} 새소식={state.새소식} 매장별={state.매장별}/>
                                 </div>
                                 
                             </div>
