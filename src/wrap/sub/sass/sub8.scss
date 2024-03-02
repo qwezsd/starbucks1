@@ -75,6 +75,7 @@
                             }
                             .button-box {
                                 button {
+                                    cursor: pointer;
                                     background: #006633;
                                     color: #fff;
                                     font-size: 24px;
@@ -101,6 +102,7 @@
                             align-items: center;
                             justify-content: space-evenly;
                             span {
+                                cursor: pointer;
                                 &.sign {
                                     font-size: 16px;
                                     line-height: 56px;
