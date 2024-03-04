@@ -14,22 +14,26 @@ export default function Section5Component () {
     })
     return (
         <div id='section5'>
-            <div className="container">
-                <div className="content">
-                    <div className="col1">
-                        <div className="txt-box">
-                            <img src="./img/starbucks/section5/231221_pc_reserve_logo.png" alt="" />
+            <div className="main-img">
+                <img src="./img/starbucks/secction5/240219_pc_reserve_coffee_bg.png" alt="" />
+                <div className="container">
+                    <div className="content">
+                        <div className="col1">
+                            <div className="txt-box">
+                                <img src="./img/starbucks/section5/240219_pc_reserve_logo.png" alt="" />
+                            </div>
+                            <div className="btn-box">
+                                <button>자세히 보기</button>
+                            </div>
                         </div>
-                        <div className="btn-box">
-                            <button>자세히 보기</button>
-                        </div>
-                    </div>
-                    <div ref={col2} className="col2">
-                        <div className="img-box">
-                            {/* <img src="./img/starbucks/section5/230811_pc_reserve_coffee_bg.png" alt="" /> */}
+                        <div ref={col2} className="col2">
+                            <div className="img-box">
+                                {/* <img src="./img/starbucks/section5/230811_pc_reserve_coffee_bg.png" alt="" /> */}
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     );

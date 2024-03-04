@@ -71,7 +71,7 @@ export default function Sub2Component() {
     
     
     const moveTime=()=>{
-        console.log(cnt)
+        // console.log(cnt)
         if(cnt % 2 == 1){ //홀수 
             setState({
             ...state,

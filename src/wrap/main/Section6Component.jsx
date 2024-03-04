@@ -36,7 +36,7 @@ export default function Section5Component () {
                     </div>
                     <div className="col2">
                         <div className="img-box">
-                            <img src="./img/starbucks/section6/231222_newyear_img.png" alt="" />
+                            <img src="./img/starbucks/section6/2024_3_cherry_blossom_pick_img.png" alt="" />
                         </div>
                     </div>
                 </div>

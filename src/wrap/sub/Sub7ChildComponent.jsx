@@ -6,7 +6,7 @@ export default  function Sub7ChildComponent ({프로모션, 새소식, 매장별
         return list.map((item, idx)=>(
             <li key={item.번호}>
                 <div className="img-box">
-                <a href="!#"><img src={`./img/starbucks/sub7/${item.이미지}`} alt="" /></a>
+                <a href="#!"><img src={`./img/starbucks/sub7/${item.이미지}`} alt="" /></a>
                 </div>
                 <div className="text-box">
                     <div className="p1">
