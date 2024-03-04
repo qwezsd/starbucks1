@@ -11,11 +11,11 @@ export default function Sub8SignUpComponent () {
                     </div>
                     <div className="content">
                         <div className="logIn-box">
-                            <p className='p1'>
+                            <div className='p1'>
                                 <span className='welcome'>Welcome!</span>
                                 <span>스타벅스 코리아에 오신 것을 환영합니다.</span>
-                            </p>
-                            <p className='p2'>
+                            </div>
+                            <div className='p2'>
                                 <div className="input-box">
                                     <input type="text" id='user_id' name='id' placeholder='아이디를 입력해 주세요'/>
                                     <input type="text" id='user_pw' name='pw' placeholder='비밀번호를 입력해 주세요'/>
@@ -35,14 +35,14 @@ export default function Sub8SignUpComponent () {
                                         * 스타벅스 코리아의 공식 홈페이지는 Internet Explorer 9.0 이상, Chrome, Firefox, Safari 브라우저에 최적화 되어있습니다.
                                     </span>
                                 </div>
-                            </p>
-                            <p className='p3'>
+                            </div>
+                            <div className='p3'>
                                 <span className='sign'>회원가입</span>
                                 <i>|</i>
                                 <span className='sign'>아이디 찾기</span>
                                 <i>|</i>
                                 <span className='sign'>비밀번호 찾기</span>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/starbucks1/static/css/main.01ee414c.css",
-    "main.js": "/starbucks1/static/js/main.4dbe9537.js",
+    "main.css": "/starbucks1/static/css/main.a107ad53.css",
+    "main.js": "/starbucks1/static/js/main.696ca50d.js",
+    "static/media/login_bg.jpg": "/starbucks1/static/media/login_bg.c4650e8239052a9f25ec.jpg",
     "static/media/231222_1_pc_pick_bg.jpg": "/starbucks1/static/media/231222_1_pc_pick_bg.dee4c492fe90ad9ab77d.jpg",
     "static/media/promotion_bimg3.jpg": "/starbucks1/static/media/promotion_bimg3.ed6391fabef8f9e0966f.jpg",
     "static/media/promotion_bimg1.jpg": "/starbucks1/static/media/promotion_bimg1.f2cb484ef8ba04289efb.jpg",
@@ -36,11 +37,11 @@
     "static/media/ms_sub_ttl_bg.jpg": "/starbucks1/static/media/ms_sub_ttl_bg.5c272c3b35216df0778c.jpg",
     "static/media/useInfo_bg.jpg": "/starbucks1/static/media/useInfo_bg.922128ce892bbaa495b4.jpg",
     "index.html": "/starbucks1/index.html",
-    "main.01ee414c.css.map": "/starbucks1/static/css/main.01ee414c.css.map",
-    "main.4dbe9537.js.map": "/starbucks1/static/js/main.4dbe9537.js.map"
+    "main.a107ad53.css.map": "/starbucks1/static/css/main.a107ad53.css.map",
+    "main.696ca50d.js.map": "/starbucks1/static/js/main.696ca50d.js.map"
   },
   "entrypoints": [
-    "static/css/main.01ee414c.css",
-    "static/js/main.4dbe9537.js"
+    "static/css/main.a107ad53.css",
+    "static/js/main.696ca50d.js"
   ]
 }
