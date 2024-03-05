@@ -12,13 +12,13 @@ export default function Section4Component () {
     React.useEffect(()=>{
 
         window.addEventListener('scroll', function(){
-            console.log(window.scrollY)
-            if(window.scrollY>2000){
-                col1.current.style.animation = 'aniSection8Col1on 1s ease-in-out'
-                mainTxt.current.style.animation = 'aniSection4Col2on 2s ease-in-out'
-                subTxt.current.style.animation = 'aniSection4Col2on 2.5s ease-in-out'
-                btn.current.style.animation = 'aniSection4Col2on 3s ease-in-out'
-                
+            if(col1.current && mainTxt.current && subTxt.current && btn.current){
+                if(window.scrollY>2000){
+                    col1.current.style.animation = 'aniSection8Col1on 1s ease-in-out'
+                    mainTxt.current.style.animation = 'aniSection4Col2on 2s ease-in-out'
+                    subTxt.current.style.animation = 'aniSection4Col2on 2.5s ease-in-out'
+                    btn.current.style.animation = 'aniSection4Col2on 3s ease-in-out'
+                }
             }
         })
     })

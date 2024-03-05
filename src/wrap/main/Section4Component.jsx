@@ -10,14 +10,12 @@ export default function Section4Component () {
     React.useEffect(()=>{
 
         window.addEventListener('scroll', function(){
-            console.log(window.scrollY)
-            if(window.scrollY>100){
-                col1.current.style.animation ='aniSection4Col1on 2s ease-in';
-                col2.current.style.animation ='aniSection4Col2on 2s ease-in';
+            if(col1.current && col2.current){
+                if(window.scrollY>100){
+                    col1.current.style.animation ='aniSection4Col1on 2s ease-in';
+                    col2.current.style.animation ='aniSection4Col2on 2s ease-in';
+                }
             }
-            // else if (value > 500 ) {
-            //     col1.current.style.animation = 'aniColoff 3s ease-out'  
-            // }
         })
     })
     return (

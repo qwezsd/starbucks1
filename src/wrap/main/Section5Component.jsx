@@ -6,9 +6,10 @@ export default function Section5Component () {
     const col2 = React.useRef();
     React.useEffect(()=>{
         window.addEventListener('scroll', function(){
-            console.log(window.scrollY)
-            if (window.scrollY>580){
-                col2.current.style.animation = 'aniSection5Col2on 2s ease-in-out'
+            if(col2.current){
+                if (window.scrollY>580){
+                    col2.current.style.animation = 'aniSection5Col2on 2s ease-in-out'
+                }
             }
         })
     })

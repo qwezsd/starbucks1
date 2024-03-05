@@ -9,16 +9,17 @@ export default function Section5Component () {
 
     React.useEffect(()=>{
         window.addEventListener('scroll', function(){
-            console.log(window.scrollY)
-            if (window.scrollY>1386){
-                txtBox1.current.style.animation = 'anisection7Col1on 2s ease-out'
-                txtBox2.current.style.animation = 'anisection7Col1on 2.5s ease-in-out'
-                btnBox.current.style.animation = 'aniBtnOn 2s ease-in-out'
-            } else {
+            if(txtBox1.current && txtBox2.current && btnBox.current){
+                if (window.scrollY>1386){
+                    txtBox1.current.style.animation = 'anisection7Col1on 2s ease-out'
+                    txtBox2.current.style.animation = 'anisection7Col1on 2.5s ease-in-out'
+                    btnBox.current.style.animation = 'aniBtnOn 2s ease-in-out'
+                } else {
 
-                txtBox1.current.style.animation = 'anisection7Col1off 2s ease-in-out forwards'
-                txtBox2.current.style.animation = 'anisection7Col1off 2s ease-in-out forwards'
-            }
+                    txtBox1.current.style.animation = 'anisection7Col1off 2s ease-in-out forwards'
+                    txtBox2.current.style.animation = 'anisection7Col1off 2s ease-in-out forwards'
+                }
+            }               
         })
     })
     return (
