@@ -74,7 +74,7 @@ export default function Sub1Component() {
     const onClickPrev=(e)=>{
         e.preventDefault();
         setPage(page-1);
-        console.log(page)
+
         mainSlide2();
         setState({
             ...state,

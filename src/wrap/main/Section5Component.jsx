@@ -15,7 +15,7 @@ export default function Section5Component () {
     return (
         <div id='section5'>
             <div className="main-img">
-                <img src="./img/starbucks/secction5/240219_pc_reserve_coffee_bg.png" alt="" />
+                <img src="./img/starbucks/section5/240219_pc_reserve_coffee_bg.png" alt="" />
                 <div className="container">
                     <div className="content">
                         <div className="col1">
